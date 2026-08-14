@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: #11161d;
+    color: white;
+    font-family: Arial, sans-serif;
+    padding-bottom: 90px;
+}
+
+.topbar {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 10px 15px;
+    background: #0d1015;
+}
+
+.logo {
+    width: 45px;
+    height: 45px;
+    border-radius: 12px;
+    background: #ef2929;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.balance {
+    flex: 1;
+    background: #202936;
+    padding: 12px;
+    border-radius: 10px;
+}
+
+.topbar button {
+    background: #ed2929;
+    border: none;
+    border-radius: 10px;
+    padding: 13px;
+    font-size: 20px;
+}
+
+main {
+    padding: 18px;
+}
+
+.welcome h1 {
+    margin-bottom: 5px;
+}
+
+.welcome p {
+    color: #9299a6;
+}
+
+.wallet-card {
+    background: linear-gradient(135deg, #ed2929, #b5161c);
+    padding: 20px;
+    border-radius: 18px;
+    margin: 20px 0;
+}
+
+.wallet-card p {
+    margin: 0;
+}
+
+.wallet-card h2 {
+    font-size: 30px;
+}
+
+.wallet-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.wallet-buttons button {
+    flex: 1;
+    padding: 13px;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+.section-title {
+    margin-top: 25px;
+}
+
+.games {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+}
+
+.game {
+    background: #1d2530;
+    border: 1px solid #374252;
+    border-radius: 15px;
+    padding: 18px;
+    text-align: center;
+}
+
+.game-icon {
+    font-size: 55px;
+}
+
+.game p {
+    color: #858d9b;
+}
+
+.bottom-nav {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 75px;
+    background: #0d1015;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.bottom-nav button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 20px;
+}
+
+.bottom-nav span {
+    display: block;
+    font-size: 11px;
+    margin-top: 4px;
+}
